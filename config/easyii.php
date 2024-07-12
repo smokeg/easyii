@@ -6,6 +6,10 @@ return [
             'class' => 'yii\easyii\AdminModule',
         ],
     ],
+    'aliases' => [
+        '@bower' => '@vendor/bower-asset',
+        '@npm'   => '@vendor/npm-asset',
+    ],
     'components' => [
         'urlManager' => [
             'enablePrettyUrl' => true,
